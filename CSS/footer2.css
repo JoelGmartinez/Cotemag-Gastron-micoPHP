@@ -1,0 +1,148 @@
+.footer{
+    background-color: #004063;
+  }
+  
+  .footer__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    padding: 30px;
+  }
+  
+  .footer__tenic img{
+    width: 120px;
+    height: 140px;
+    
+  }
+  
+  .footer__tenic{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-left: -100px;
+  }
+  
+  .footer__soporte{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .footer__soporte h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffde73;
+  }
+  
+  .footer__soporte ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    
+  }
+
+  .footer__soporte ul li{
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .footer__soporte ul li a{
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .i-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .iconos a {
+    width: 40px;
+    height: 40px;
+    color: #fff0bf;
+    padding: 10px;
+    margin-left: -5px;
+    transition: 0.5s ease;
+  }
+  
+  .copyright {
+    text-align: center;
+    background-color: #d2b862; 
+  
+  }
+  
+  .span__span{
+    color: #004e79;
+  }
+  
+  /* resposive */
+  
+@media (max-width: 1000px){
+    .footer__tenic{
+        padding: 25px;
+    }
+}
+
+@media (max-width: 800px){
+
+    /* footer */
+    .footer__tenic{
+        margin-left:0 ;
+        padding-bottom: 10px !important;
+        width: 100%;
+    }
+
+    .footer__soporte ul {
+        margin-bottom: -10px;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .footer__soporte{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+    }
+}
+  
+@media (max-width: 580px){
+   
+    /* footer */
+    .footer__soporte{
+        width: 100%;
+    }
+    .copyright {
+       font-size: 13px; 
+      
+    }
+
+}
+  
+@media (max-width: 360px){
+
+    .footer__soporte ul li{
+        font-size: 10px;
+    }
+
+    .copyright {
+        font-size: 8px; 
+       
+    }
+   
+}

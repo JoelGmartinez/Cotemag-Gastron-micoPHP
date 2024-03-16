@@ -1,0 +1,1161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(177, 177, 177);
+}
+
+.jumbotron {
+  display: flex;
+  justify-content:center;
+  align-items: center !important;
+  width: 100%;
+  height: 50px;
+  color: #d2b862;
+  background: #004e79;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.jumbotron h1{
+  font-size: 200%;
+}
+
+.jumbotron:hover{
+  color: #ffffff;
+}
+
+/*seccion 1*/
+.porta{
+  width: 100%;
+  height: 700px;
+  background-image: url(/asset/galeria5.jpeg);
+  background-position: center center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.linear{
+  background: linear-gradient(0.1turn, #00000085, #ebf8e100);
+  width: 100%;
+  height: 700px;
+}
+
+.curso{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+}
+
+.curso h1{
+  color: #e2bb39;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 60px;
+  text-shadow: 0px 3px 4px  #ffffff;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.curso p{
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.gastro{
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  height: 40%;
+  
+}
+
+.gastro img{
+  width: 350px;
+  height: 120px;
+  margin-left: 50px;
+  margin-top: 60px;
+  filter:drop-shadow(1px 1px 5px #d2b862 );
+}
+
+.contac{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #004e79;
+  width: 200px;
+  font-weight:500;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  box-shadow:  0px 0px 20px 1px #d2b862;
+  transition: all ease 0.5s;
+}
+
+.contac:hover{
+  box-shadow:  0px 0px 20px 1px #ffffff;
+  color: #d2b862;
+}
+/*seccion 1*/
+
+/*Sobre Nosotros*/
+
+.nosotros{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+.noso{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  
+  
+}
+
+.cajanos{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  height: 400px;
+  width: 100%;
+  
+}
+.nos{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 400px;
+  margin-right: -50px;
+  z-index: 1;
+}
+
+.nos p{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  color: #004e79;
+  height: 310px;
+  width: 380px;
+  font-size: 15px;
+  padding: 25px;
+  font-weight: 400;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #d2b862;
+  background-color: #ffffffda;
+  transition: all ease 0.5s;
+
+}
+
+.nos p:hover{
+  scale: 1.08;
+  color: #004e79;
+}
+
+.titulonos{
+  color: #d2b862;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.imgnos{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 400px;
+  margin-left: -50px;
+}
+
+.imgnos img{
+  width: 380px;
+  height: 310px;
+  border-radius:  50%;
+  transition: all ease .5s;
+  
+}
+
+.imgnos img:hover{
+  border-radius: 25%;
+  width: 470px;
+  scale: 1.05;
+  margin-left: 50px;
+  z-index: 2;
+}
+
+/*Sobre Nosotros*/
+
+/*seccion 3*/
+
+.gala{
+  background-image: url(/asset/arroz.jpg);
+  height: 500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gastro2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gastro2 img{
+  margin-top: 20px;
+  margin-bottom: -40px;
+  filter:drop-shadow(1px 1px 5px #004e79 );
+}
+.linear2{
+  background: linear-gradient(0.1turn, #000000b7, #00000075);
+  width: 100%;
+  height: 100%;
+  
+}
+.curso2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  gap: 50px;
+}
+
+.cajcard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.card{
+  background-color: #ffffff !important;
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 100px 100px 40px 40px !important;
+  border: none;
+  color: #004e79;
+  transition: all ease .10s;
+}
+
+.card:hover{
+  margin-top: -30px;
+  color: #d2b862;
+
+}
+.card img{
+  border-radius: 100px 100px 40px 40px ;
+  transition: all ease .5s;
+}
+
+.card img:hover{
+  border-radius: 100px 100px 40px 40px ;
+  scale: 1.05;
+}
+
+.card0{
+  display: flex;
+  justify-content:space-around;
+  align-items: center ;
+  height: 250px;
+  flex-direction: column;
+}
+
+.card0 img{
+  width: 230px;
+}
+
+.card1{
+  display: flex;
+  justify-content:space-around;
+  align-items: center ;
+  height: 250px;
+  flex-direction: column;
+}
+
+.card1 img{
+  width: 230px;
+}
+
+.card2{
+  display: flex;
+  justify-content:space-around;
+  align-items: center ;
+  height: 250px;
+  flex-direction: column;
+}
+
+.card2 img{
+  width: 230px;
+}
+
+.card3{
+  display: flex;
+  justify-content:space-around;
+  align-items: center ;
+  height: 250px;
+  flex-direction: column;
+}
+
+.card3 img{
+  width: 230px;
+}
+
+.galer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.gcontac{
+  background-color: #00000000;
+  border: solid 2px #ccc;
+  text-align: center;
+  font-weight: 600;
+  padding: 4px;
+  width: 100px;
+  margin-top: -40px;
+  color: white;
+  text-decoration: none;
+}
+.gcontac:hover{
+  color: #d2b862;
+}
+/*seccion 3*/
+
+/*eventos*/
+
+.conteneven{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.eventos{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #004e79;
+  
+}
+
+.cajaeven{
+  gap: 35px;
+}
+.event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  color: #004e79;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px #004f7980;
+  width: 350px !important;
+  transition: all ease .10s;
+}
+
+.event:hover {
+  scale: 1.02;
+  color: #d2b862;
+}
+
+.event img {
+  width: 95%;
+  height: 200px;
+  margin: 10px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.event h2 {
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.evenbo a {
+  margin-top: 20px;
+  color: #004e79;
+  background-color: #d2b862;
+  font-weight: 500;
+  transition: all ease .5s;
+}
+
+.evenbo a:hover{
+  scale: 1.06;
+  color: white;
+  background-color: #003857;
+}
+/*eventos*/
+
+@media(min-width:1900px){
+  .porta{
+    background-position: center 30%;
+  }
+
+  .curso{
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+  }
+
+  .curso h1{
+    font-size: 70px;
+  }
+
+}
+
+@media(max-width:1200px){
+
+  /*sección 3*/
+  .curso2{
+    margin-top: -30px;
+    gap: 30px;
+  }
+
+  .cajcard{
+    gap: 30px;
+  }
+
+  .card{
+    text-align: center;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+  }
+  
+  .card img{
+    border-radius: 100px 100px 40px 40px;
+    transition: all ease .5s;
+    width: 210px;
+  }
+  
+  
+  .card0{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+  
+  .card1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  
+  .card2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  
+  .card3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+  
+}
+
+@media(max-width:1100px){
+
+  /*sección 3*/
+  .curso2{
+    margin-top: -30px;
+    gap: 30px;
+  }
+
+  .cajcard{
+    gap: 30px;
+  }
+
+  .card{
+    text-align: center;
+    height: 200px;
+    width: 220px;
+    padding: 10px;
+  }
+  
+  .card img{
+    border-radius: 100px 100px 40px 40px;
+    transition: all ease .5s;
+    width: 210px;
+  }
+  
+  .card0{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+  
+  .card1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  .card2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  
+  .card3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 1000px) {
+
+  /*seccion 3*/
+  .curso2{
+    margin-top: -30px;
+    gap: 20px;
+  }
+
+  .cajcard{
+    gap: 20px;
+  }
+
+  .card{
+    height: 200px;
+    width: 210px;
+    padding: 10px;
+  }
+  
+  .card img{
+    border-radius: 100px 100px 40px 40px;
+    transition: all ease .5s;
+    width: 180px;
+  }
+  
+  .card0{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+  
+  .card1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  
+  .card2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  .card3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  /*sección 3*/
+  .curso2{
+    margin-top: -30px;
+    gap: 20px;
+  }
+
+  .cajcard{
+    gap: 20px;
+  }
+
+  .card{
+    height: 190px;
+    width: 170px;
+    padding: 10px;
+  }
+  
+  .card img{
+    border-radius: 100px 100px 40px 40px;
+    transition: all ease .5s;
+    width: 150px;
+  }
+
+
+}
+
+@media (max-width: 800px) {
+
+  .jumbotron {
+    height: 80px;
+  }
+
+ /* Seccion 3*/
+
+  .gala{
+    height: 620px;
+  }
+
+  .curso2{
+    margin-top: -30px;
+    gap: 50px;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .cajcard{
+    gap: 50px;
+    
+  }
+
+  .card{
+    height: 160px;
+    width: 220px;
+    padding: 10px;
+    
+  }
+  
+  .card img{
+    border-radius: 100px 100px 40px 40px;
+    transition: all ease .5s;
+    width: 170px;
+  }
+  
+  .card0{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+  
+  .card1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  .card2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  .card3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+
+
+  /*eventos*/
+  .event h2 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+}
+
+@media (max-width: 700px) {
+
+  /*sobre nosotros*/
+  .cajanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .nos{
+    margin-bottom: -80px;
+    
+  }
+  .nos p{
+    font-size: 12px;
+    padding: 20px;
+    padding-top: 40px;
+    width: 300px;
+    height: 250px;
+  }
+
+  .imgnos img{
+    width: 300px;
+    height: 250px;
+    
+  }
+
+
+}
+
+@media (max-width: 500px) {
+ 
+
+/*seccion 1*/
+  .curso h1{
+    font-size: 45px;
+    text-shadow: 0px 3px 4px  #ffffff;
+    font-weight: bold;
+
+  }
+
+  .gastro img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+  }
+
+  /*Sobre nosotros*/
+
+  .titulonos{
+    font-size: 30px;
+  }
+  .cajanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -100px;
+  }
+  
+  .nos{
+    margin-top: 50px !important;
+    
+  }
+
+  .nos p{
+    font-size: 10px;
+    padding: 25px !important;
+    width: 225px !important;
+    height: 200px !important;
+  }
+
+  .imgnos{
+    width: 500px;
+    height: 250px;
+    
+  }
+
+  .imgnos img{
+    width: 200px !important;
+    height: 200px !important;
+    
+  }
+
+  .imgnos img:hover{
+    width: 300px !important;
+    height: 200px !important;
+    
+  }
+
+/*Seccion 3*/
+  .gala{
+    height: 1100px;
+  }
+
+  .curso2{
+    margin-top: -30px;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+
+  .cajcard{
+    gap: 30px;
+    flex-direction: column;
+    
+  }
+
+  .card{
+    height: 190px;
+    width: 250px;
+    padding: 10px;
+    
+  }
+
+  .card:Hover{
+    margin-top: -10px;
+  }
+  
+  .card img{
+    border-radius: 40px 40px 100px 100px ;
+    transition: all ease .5s;
+    width: 160px;
+  }
+  
+  
+  .card0{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+  
+  .card1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  
+  .card2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+
+    flex-direction: column;
+  }
+  
+  
+  .card3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+    flex-direction: column;
+  }
+    
+}
+
+@media (max-width: 400px) {
+
+  .gastro img{
+    justify-content: center;
+    align-items: center;
+    width: 140%;
+  }
+
+    
+  .curso h1{
+    font-size: 38px;
+  }
+
+  .jumbotron h1{
+    font-size: 150%;
+  }
+
+  .cajanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nos{
+    margin-bottom: -80px;
+    
+  }
+
+  .nos p{
+    font-size: 10px;
+    padding: 20px;
+    padding-top: 40px;
+    width: 280px;
+    height: 250px;
+  }
+  .imgnos{
+    width: 300px;
+    height: 250px;
+  }
+  .imgnos img{
+    width: 230px !important;
+    height: 230px !important;
+    
+  }
+
+  .event{
+    width: 300px !important;
+  }
+
+  .event img{
+    height: 200px;
+  }
+
+
+ 
+}
+
+@media (max-width: 300px) {
+
+  .gastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+  }
+
+  .gastro img{
+    width: 220px !important;
+    margin: 0;
+  }
+
+  .curso h1{
+    font-size: 30px;
+  }
+
+  .gastro img{
+    width: 200px;
+    
+  }
+
+  .titulonos{
+    font-size: 25px;
+  }
+  
+  .nos p{
+    font-size: 9px;
+    width: 200px !important;
+    height: 180px !important;
+    padding-bottom: -40px !important;
+  }
+
+  .imgnos img{
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .imgnos img:hover{
+    width: 250px !important;
+    height: 200px !important;
+  }
+
+  .gastro2 img{
+    width: 220px;
+  }
+
+  .event{
+    width: 250px !important;
+  }
+
+  .event img{
+    height: 150px;
+  }
+
+ 
+}
+@media (max-width: 280px) {
+
+  .gastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+  }
+  
+  .gastro img{
+    width: 220px !important;
+    margin: 0;
+  }
+
+  .curso h1{
+    font-size: 29px;
+  }
+
+  .gastro img{
+    width: 200px;
+    
+  }
+
+  .titulonos{
+    font-size: 25px;
+  }
+  
+  .nos p{
+    font-size: 9px;
+    width: 200px !important;
+    height: 180px !important;
+    padding-bottom: -40px !important;
+  }
+
+  .imgnos img{
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .imgnos img:hover{
+    width: 250px !important;
+    height: 200px !important;
+  }
+
+  .gastro2 img{
+    width: 220px;
+  }
+
+  .event{
+    width: 250px !important;
+  }
+
+  .event img{
+    height: 150px;
+  }
+
+}
+
+@media (max-width: 280px) {
+
+  .gastro img{
+    width: 190px !important;
+  }
+
+  .curso h1{
+    font-size: 25px;
+  }
+  .contac{
+    width: 150px;
+  }
+
+  .titulonos{
+    font-size: 25px;
+  }
+
+  .nos{
+    width: 100%;
+    height: 170px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nos p{
+    border-radius:  50px 50px 50px 50px;
+    font-size: 9px;
+    width: 190px !important;
+    height: 170px !important;
+    padding: 0;
+  
+  }
+
+  .imgnos{
+    width: 180px !important;
+    height: 180px !important;
+    margin-top: -50px;
+  }
+
+  .imgnos img{
+    width: 180px !important;
+    height: 180px !important;
+    margin-top: -100px;
+  }
+
+  .imgnos img:hover{
+    width: 200px !important;
+    height: 180px !important;
+  }
+
+  .gala{
+    height: auto;
+  }
+  .linear2{
+    padding-bottom:20px;
+  }
+  
+  .gastro2 img{
+    width: 200px;
+  }
+
+  .card{
+    height: 130px;
+    width: 200px;
+    padding: 10px;
+    
+  }
+  .card img{
+    border-radius: 100px 100px 40px 40px;
+    transition: all ease .5s;
+    width: 120px;
+  }
+
+
+  .event{
+    width: 250px !important;
+  }
+
+  .event img{
+    height: 150px;
+  }
+
+}
+
+@media (max-width: 240px) {
+
+  .gastro img{
+    width: 120px !important;
+    margin-right: -5px !important;
+    padding-right: -5px !important;
+  }
+
+  .curso h1{
+    font-size: 25px;
+  }
+  .contac{
+    width: 150px;
+  }
+
+  .titulonos{
+    font-size: 25px;
+  }
+
+  
+}
