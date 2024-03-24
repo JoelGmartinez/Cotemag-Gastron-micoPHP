@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer" id="footer">
             <div class="footer__container">
                 <div class="footer__contact">
                     <div class="footer__tenic">
@@ -9,7 +9,7 @@
                                 <li><i class="bi bi-telephone-outbound"></i> (+57) 605-4231290 / 605-4230603</li>
                                 <li><a href="https://api.whatsapp.com/send?phone=573004813444&text=Hola%2C+estoy+interesado+en+matricularme+en+COTEMAG" target="_blank"><i class="bi bi-whatsapp"></i> (+57) 3004813444</a></li>
                                 <li><i class="bi bi-geo-alt-fill"></i> Avenida Los Estudiantes #17 - 46</li>
-                                <li><i class="fa-thin fa-earth-americas"></i> Santa Marta - Colombia</li>
+                                <li><i class="fa-solid fa-earth-americas"></i> Santa Marta - Colombia</li>
                                 <li><a href="direcciongeneral@cotemag.edu.co" target="_blank"><i class="bi bi-envelope"></i> direcciongeneral@cotemag.edu.co</a></li>
                             </ul>
                         </div>
@@ -53,13 +53,13 @@
             </div>
             <div class="i-redes">
                 <ul class="iconos">
-                    <li class="list-inline-item"><a href="https://www.facebook.com/cotemagsm" target="_blank"><i class="bi bi-facebook"></i></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.instagram.com/cotemaggastronomico/" target="_blank"><i class="bi bi-instagram"></i></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/cotemagsm" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/cotemaggastronomico/" target="_blank"><i class="bi bi-instagram"></i></a></li>
                     <li class="list-inline-item"><a href="https://api.whatsapp.com/send/?phone=573004813444&text&type=phone_number&app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
                 </ul>
             </div>
-                <div class="copyright">
-                    &copy; Copyright 2023
-                    <strong><span class="span__span">COTEMAG GASTRONOMICO</span></strong>Todos los derechos reservados
-                </div>            
-    </footer>
+            <div class="copyright">
+                &copy; Copyright 2023
+                <strong><span class="span__span">COTEMAG GASTRONOMICO</span></strong>Todos los derechos reservados
+            </div>            
+</footer>

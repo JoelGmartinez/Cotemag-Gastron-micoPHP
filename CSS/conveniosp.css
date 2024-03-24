@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content:center;
+    align-items: center !important;
+    width: 100%;
+    height: 50px;
+    color: #f1cc50 !important;
+    background: #005480 !important;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    z-index: 100;
+  }
+  .jumbotron h1{
+    font-size: 200%;
+  }
+  
+  .jumbotron:hover{
+    color: #ffffff;
+  }
+
+.portada{
+    background-image: url(/asset/areas.jpeg);
+    background-position: center 45% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+
+.cortine{
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #f1cc50;
+    text-shadow: 1px 2px 3px  #ffffff;
+
+}
+
+.titulo p{
+    font-size: 1.9rem;
+    color: #ffffff;
+    text-shadow: 1px 2px 3px  #005480;
+}
+
+.mainc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+    margin-top: 4rem;
+}
+
+.acordeon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.accordion{
+    width: 90%;
+    margin: 20px;
+}
+
+
+.accordion-button{
+    height: 50px;
+}
+
+.accordion-button h2{
+    font-size: 25px !important;
+}
+
+.formatos h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #005480;
+}
+
+.requisitos{
+    font-size: 40px;
+    font-weight: 600;
+    color: #005480;
+    margin: 10px;
+}
+
+.modulos ul li{
+    list-style: decimal;
+}
+
+.formatos{
+    display: flex;
+}
+
+.formatos h3,.formatos a{
+    text-align: center;
+}
+.formatos a{
+    outline: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #d3bb37;
+    border: solid 1px #979fbea1;
+    font-weight: 500;
+}
+
+.formatos div{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    border: solid 1px #c7c7c7;
+    padding: 10px;
+}
+
+.formatos div p{
+    padding: 10px;
+}
+
+.slider2{
+    margin-top:-50px !important;
+}
+
+.slider{
+    overflow: hidden;
+    width: 80%;
+    /*width: 1100px;*/
+    margin: 80px;
+}
+
+.slideres{
+    display: flex;
+    animation-name: scrol;
+    animation: linear infinite;
+    -webkit-animation: scrol 20s linear infinite;
+    width: calc(260px * 10);
+}
+
+.slide{
+    display: flex;
+    
+}
+
+.slide img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+
+@keyframes scrol {
+
+    0%{
+        transform: translateX(0);
+
+    }
+
+    100%{
+        transform: translateX(-50%);
+        
+    }
+
+}
+
+.slideres2{
+    display: flex;
+    animation-name: scrol2;
+    animation: linear infinite;
+    -webkit-animation: scrol2 20s linear infinite;
+    width: calc(260px * 10);
+}
+
+@keyframes scrol2 {
+
+    0%{
+        transform: translateX(-50%);
+
+    }
+
+    100%{
+        transform: translateX(0);
+        
+    }
+
+}
+
+
+@media(min-width:1300px){
+    .accordion{
+        width: 1200px;
+    }
+
+    .slider{
+        width:1100px !important;
+    }
+
+}
+
+@media(max-width:1300px){
+    .accordion{
+        width: 95%;
+    }
+}
+
+@media(max-width:800px){
+    .formatos{
+        flex-direction: column;
+    }
+    .requisitos{
+        text-align: center;
+        
+    }
+    
+}
+
+@media(max-width:500px){
+    .jumbotron h1{
+        font-size: 150%;
+    }
+
+    .titulo h1{
+        font-size: 3.5rem;
+    
+    }
+    
+    .titulo p{
+        font-size: 1.5rem;
+
+    }
+
+    
+}
+@media(max-width:300px){
+    .requisitos{
+        font-size: 25px;
+        text-align: center !important;
+        
+    }
+
+    .jumbotron h1{
+        font-size: 110%;
+    }
+
+    .titulo h1{
+        font-size: 3rem;
+    
+    }
+    
+    .titulo p{
+        font-size: 1.2rem;
+
+    }
+
+    
+}

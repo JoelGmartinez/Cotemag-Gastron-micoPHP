@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*div*/
@@ -54,8 +55,8 @@
   font-size: 35px;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bolder;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-family: sans-serif;
   color: #d2b862; 
 }
   
