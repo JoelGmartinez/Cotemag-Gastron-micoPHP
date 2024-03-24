@@ -52,10 +52,10 @@
         </div>
 
         <div class="menuc">
-            <a href="https://www.facebook.com/cotemagsm" target="_blank"><i class="bi bi-facebook"></i></a>
+            <!-- <a href="https://www.facebook.com/cotemagsm" target="_blank"><i class="bi bi-facebook"></i></a> -->
             <a href="https://www.instagram.com/cotemaggastronomico/" target="_blank"><i class="bi bi-instagram"></i></a>
             <a href="https://api.whatsapp.com/send/?phone=573004813444&text&type=phone_number&app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a>
-            <a href="https://www.linkedin.com/company/cotemag/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <!-- <a href="https://www.linkedin.com/company/cotemag/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> -->
         </div>
     </div>
 </nav>  

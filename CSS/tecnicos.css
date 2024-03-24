@@ -40,7 +40,7 @@ main{
   box-shadow: 2px 2px 1rem  #d2b8628a;
   border-radius: 10px !important;
   height: auto;
-  width: 80%;
+  width: 85%;
   overflow: hidden;
   padding: 15px;
   margin-bottom: 20px;
@@ -120,7 +120,7 @@ ol li{
 
 @media (min-width: 1700px){
   .card{
-    width: 60%;
+    width: 1400px;
   }
 }
 
@@ -188,6 +188,10 @@ ol li{
     
   }
 
+  .card{
+    width: 95%;
+  }
+
 }
 
 @media (max-width: 400px) {
@@ -228,8 +232,7 @@ ol li{
 @media (max-width: 260px) {
 
   .img-fluid2{
-    width: 100% !important;
-    height: 220px;
+   width: 200px;
   }
 
 }
