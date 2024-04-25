@@ -15,7 +15,9 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">OFERTAS ACADEMICAS</a>
                     <ul class="dropdown-menu">
-                        <li class="tec"><a class="dropdown-item" aria-current="page" href="Tecnicos.php">TÉCNICOS</a></li>
+                        <li class="tec">
+                            <a class="dropdown-item" aria-current="page" href="Tecnicos.php">TÉCNICOS</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -24,7 +26,9 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ALIANZAS</a>
                     <ul class="dropdown-menu">
-                        <li class="tec"><a class="dropdown-item" aria-current="page"  href="Convenios y practicas.php">Convenios y Prácticas</a></li>
+                        <li class="tec">
+                            <a class="dropdown-item" aria-current="page" href="Convenios y practicas.php">Convenios y Prácticas</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">

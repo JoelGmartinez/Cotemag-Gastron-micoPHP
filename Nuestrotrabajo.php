@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image" href="/asset/logofh.png" />
   <title>COTEMAG GASTRONOMICO</title>
-  <link rel="stylesheet" href="/CSS/header.css" />
+  <link rel="stylesheet" href="/CSS/header2.css" />
   <link rel="stylesheet" href="/CSS/galeria.css" />
   <link rel="stylesheet" href="/CSS/footer2.css" />
   <!-- bootstrap links -->
@@ -18,7 +18,7 @@
 </head>
 <body>
 <!-- navbar -->
-  <?php include("header.php")?>
+  <?php include("header2.php")?>
 <!-- navbar -->
 
   <div class="jumbotron text-center">
@@ -149,6 +149,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script src="menu.js"></script>
 </body>
 
 </html>

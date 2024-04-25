@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image" href="/asset/logofh.png" />
   <title>COTEMAG GASTRONOMICO</title>
-  <link rel="stylesheet" href="/CSS/header.css" />
+  <link rel="stylesheet" href="/CSS/header2.css" /> 
   <link rel="stylesheet" href="/CSS/styles.css" />
-  <link rel="stylesheet" href="/CSS/footer2.css" />
+  <link rel="stylesheet" href="/CSS/footer2.css" /> 
   <!-- bootstrap links -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,8 +18,16 @@
 </head>
 <body>
 
+    <div class="loader" id="loader">
+        <div class="three-body " >
+            <div class="three-body__dot"></div>
+            <div class="three-body__dot"></div>
+            <div class="three-body__dot"></div>
+        </div>        
+    </div>
+
 <!-- navbar -->
-  <?php include("header.php")?>
+  <?php include("header2.php")?>
 <!-- navbar -->
 
   <div class="jumbotron">
@@ -156,5 +164,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
+    <script src="menu.js"></script>
 </body>
 </html>

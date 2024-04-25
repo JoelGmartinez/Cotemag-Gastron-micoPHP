@@ -9,7 +9,7 @@
     <!--Importando librerias de font-awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/CSS/conveniosp.css">
-    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/header2.css">
     <link rel="stylesheet" href="/CSS/footer2.css">
     <title>Convenios y Prácticas</title>
     <!-- bootstrap links -->
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body> 
-    <?php include("header.php") ?>
+    <?php include("header2.php") ?>
     <div class="jumbotron">
         <div class="page__header">
             <h1>Convenios y Prácticas</h1>
@@ -184,5 +184,6 @@
     <?php include("footer2.php") ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="menu.js"></script>
 </body>
 </html>
